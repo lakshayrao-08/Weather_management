@@ -1,0 +1,7 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #eceff1; color: #333; }
+.container { max-width: 700px; margin: 40px auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+h1 { color: #0277bd; margin-bottom: 5px; }
+#drop-zone { border: 3px dashed #0277bd; padding: 40px; text-align: center; color: #0277bd; border-radius: 10px; transition: 0.3s; cursor: pointer; }
+#drop-zone:hover { background: #e1f5fe; }
+.risk-card { background: #fff5f5; border-left: 6px solid #d32f2f; padding: 15px; margin-top: 10px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+#summary-panel { margin: 20px 0; font-weight: bold; font-size: 1.1em; }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWise Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌩️ WeatherWise Intelligence</h1>
+        <p>Global Innovation Challenge 2026: Offline Disaster Response</p>
+        
+        <div class="upload-section">
+            <div id="drop-zone">
+                Drag & Drop <strong>weather.csv</strong> here <br> or Click to Browse
+            </div>
+            <input type="file" id="file-input" accept=".csv" style="display:none">
+        </div>
+
+        <div id="summary-panel"></div>
+        <div id="results-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
